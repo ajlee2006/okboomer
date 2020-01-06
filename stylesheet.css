@@ -1,5 +1,7 @@
-BODY {
+body {
 	font-family: 'Trebuchet MS', sans-serif;
+	background-color: black;
+	color: white;
 }
 #rr {
 	width: 1000;
