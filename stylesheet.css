@@ -7,3 +7,15 @@ body {
 	width: 1000;
 	height: 800;
 }
+TABLE,th,td{
+	padding:1px;
+	border-collapse: collapse;
+	border: 2px solid white;
+}
+#long{
+	width: 250;
+	height:550
+}
+#raid{
+	text-decoration: line-through;
+}
