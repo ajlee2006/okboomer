@@ -18,4 +18,11 @@ TABLE,th,td{
 }
 #raid{
 	text-decoration: line-through;
+	overflow: scroll;
+	width: 400px;
+	height:100px
+}
+a{
+	text-decoration: none;
+	color: #00aeff;
 }
