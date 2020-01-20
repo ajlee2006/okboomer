@@ -1,6 +1,6 @@
 body {
 	font-family: 'Trebuchet MS', sans-serif;
-	background-color: #0a0f29;
+	background-color: black;
 	color: #e2f3f5;
 }
 #rr {
@@ -28,4 +28,16 @@ a{
 }
 table,audio{
 	width:100%
+}
+#tinput{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: flex-start;
+}
+#item1{
+	flex-grow:2
+	width:90%
+}#item2{
+
 }
