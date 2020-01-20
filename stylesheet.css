@@ -1,7 +1,7 @@
 body {
 	font-family: 'Trebuchet MS', sans-serif;
-	background-color: black;
-	color: white;
+	background-color: #0a0f29;
+	color: #e2f3f5;
 }
 #rr {
 	width: 1000;
@@ -10,7 +10,7 @@ body {
 TABLE,th,td{
 	padding:1px;
 	border-collapse: collapse;
-	border: 2px solid white;
+	border: 2px solid #e2f3f5;
 }
 #long{
 	width: 250;
@@ -24,7 +24,7 @@ TABLE,th,td{
 }
 a{
 	text-decoration: none;
-	color: #00aeff;
+	color: #22d1ee;
 }
 table,audio{
 	width:100%
