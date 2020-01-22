@@ -3,7 +3,7 @@ function al() {
 }
 function time() {
     let now = Date.now()
-    document.getElementById('og').innerHTML = now
+    document.getElementById('og').innerHTML = 'unix time:' + now
     dateObj = new Date(now);
     d8 = dateObj.toUTCString();
     let da = d8.split(/ +/)
