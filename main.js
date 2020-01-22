@@ -1,3 +1,3 @@
 function al() {
-    alert('IT DOESNT DO ANYTHING!')
+    document.getElementById('chn').innerHTML = document.getElementById('item1').value
 }

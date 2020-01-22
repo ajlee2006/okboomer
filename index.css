@@ -1,40 +1,67 @@
 body {
-	font-family: 'Trebuchet MS', sans-serif;
-	background-color: rgb(1, 0, 8);
-	color: #e2f3f5;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: rgb(1, 0, 8);
+    color: #e2f3f5;
 }
+
 #rr {
-	width: 1000;
-	height: 800;
+    width: 1000;
+    height: 800;
 }
-TABLE,th,td{
-	padding:1px;
-	border-collapse: collapse;
-	border: 2px solid #e2f3f5;
+
+TABLE,
+th,
+td {
+    padding: 1px;
+    border-collapse: collapse;
+    border: 2px solid #e2f3f5;
 }
-#long{
-	width: 250;
-	height:550
+
+#long {
+    width: 250;
+    height: 550
 }
-#raid{
-	text-decoration: line-through;
-	overflow: scroll;
-	width: 400px;
-	height:100px
+
+#raid {
+    text-decoration: line-through;
+    overflow: scroll;
+    width: 400px;
+    height: 100px
 }
-a{
-	text-decoration: none;
-	color: #22d1ee;
+
+a {
+    text-decoration: none;
+    color: #22d1ee;
 }
-table,audio{
-	width:100%
+
+table,
+audio {
+    width: 100%
 }
-#tinput{
-	display: flex;
-	flex-direction: row;
-	flex-wrap:wrap;
-	justify-content: flex-start;
+
+#tinput {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
-#item1{
-	flex-grow:2;
+
+#item1 {
+    flex-grow: 2;
+}
+
+#chn {
+    border: 2px solid whitesmoke;
+    width: max-content;
+    background-color: steelblue;
+}
+
+::selection {
+    background: steelblue;
+    /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: steelblue;
+    /* WebKit/Blink Browsers */
 }
