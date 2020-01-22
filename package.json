@@ -1,0 +1,26 @@
+{
+    "name": "okboomer",
+    "version": "0.0.0",
+    "description": "fucc off",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hnngggrrrr/okboomer.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hnngggrrrr/okboomer/issues"
+    },
+    "engines": {
+        "node": "10.x"
+    },
+    "homepage": "https://github.com/hnngggrrrr/okboomer#readme",
+    "dependencies": {
+        "julian": "^0.2.0"
+    }
+}
