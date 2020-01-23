@@ -1,192 +1,279 @@
-<HTML>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
     <title>M20202 Website</title>
-
-    <link rel="stylesheet" href="index.css" type="text/css" charset="utf-8" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="./Styles/style.css" />
 </head>
 
 <body>
+    <header>
+        <nav>
+            <div class="hamburger" onclick="myFunction(this)">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a class="third after" data-page="time" href="#time">Timetable</a></li>
+                <li><a class="third after" data-page="list" href="#list">Class List</a></li>
+                <li><a class="third after" data-page="audio" href="#audio">Audio</a></li>
+                <li><a class="third after" data-page="message" href="#message">Message</a></li>
+                <li><a class="third after" data-page="videos" href="#video">Videos</a></li>
+            </ul>
+        </nav>
+    </header>
     <h1>M20202 Website</h1>
-    <a href="https://brave-meitner-4e8cfb.netlify.com/">
-        <h2>Dynamic Site</h2>
-    </a>
-    <h4>This site was made possible by you, and</h4>
-    <h4 id='raid'>I've never been much of a mobile gamer, but, forget everything you
-        think you know about mobile games because Raid Shadow Legends is one of the most ambitious RPG projects of 2019
-        has just been released and will change everything. Just look at the level of detail of these characters! If you
-        use the code in the description you can start with 50,000 silver and join the Special Launch Tournament, and you
-        better hurry because it's getting big fast! You can play for totally free with the link below on your
-        smartphone. <br>brought to you by our sponsor, Nord VPN! Protect your privacy from prying eyes with
-        military-grade encryption. Buy Nord VPN today using the promo code in the description down below for 55% off one
-        year subscription! <br>[WESBITE NOT MADE BY WIX]You need a website. Why not do it yourself? With Wix, you can
-        create your own professional website. Choose from hundreds of templates. Whether you're a small business owner
-        or an artist,
-        we've got something for you. Just drag and drop to create your site exactly the way you want it. It's easy!
-        Change your text. Choose one of our backgrounds or upload your own, and easily add one of our beautiful
-        galleries. You can even set up an online store in seconds. With just a few clicks, you can connect your site to
-        your favorite social media channels, and add popular Web apps and services, like Google Maps, Contact Forms, and
-        so much more. Just like that, you've got your own stunning website, that is fully optimized for every device.
-        Create your stunning website today. It's easy & free! </h4>
-    <img><img src="media/time.png" alt="Timetable">
-    <br><br>
-    <TABLE>
-        <TR>
-            <TD>Index no</TD>
-            <TD>name</TD>
-        </TR>
-        <TR>
-            <TD>1</TD>
-            <TD>ADITI ATHREYA</TD>
-        </TR>
-        <TR>
-            <TD>2</TD>
-            <TD>ANANDAN NITHILAM</TD>
-        </TR>
-        <TR>
-            <TD>3</TD>
-            <TD>BRANDON NATHANIEL YAURY</TD>
-        </TR>
-        <TR>
-            <TD>4</TD>
-            <TD>CHUA WEE CHONG</TD>
-        </TR>
-        <TR>
-            <TD>5</TD>
-            <TD>CLEMENT LOW HONG YI</TD>
-        </TR>
-        <TR>
-            <TD>6</TD>
-            <TD>FU QIANPENG</TD>
-        </TR>
-        <TR>
-            <TD>7</TD>
-            <TD>GUO CHENG GUANG</TD>
-        </TR>
-        <TR>
-            <TD>8</TD>
-            <TD>HUGO MAXIMUS LIM</TD>
-        </TR>
-        <TR>
-            <TD>9</TD>
-            <TD>JAEDEN SOON CHUANKAI</TD>
-        </TR>
-        <TR>
-            <TD>10</TD>
-            <TD>KHOO KAI WEN</TD>
-        </TR>
-        <TR>
-            <TD>11</TD>
-            <TD>KIRTHIVARDHAN RAJASEKAR</TD>
-        </TR>
-        <TR>
-            <TD>12</TD>
-            <TD>LENG KANE KIAT</TD>
-        </TR>
-        <TR>
-            <TD>13</TD>
-            <TD>LIM CHENG IAN</TD>
-        </TR>
-        <TR>
-            <TD>14</TD>
-            <TD>LIM JAR RUI</TD>
-        </TR>
-        <TR>
-            <TD>15</TD>
-            <TD>LIM YU HAO</TD>
-        </TR>
-        <TR>
-            <TD>16</TD>
-            <TD>LIM YU TONG</TD>
-        </TR>
-        <TR>
-            <TD>17</TD>
-            <TD>MATTHEW LING YONG EN</TD>
-        </TR>
-        <TR>
-            <TD>18</TD>
-            <TD>PRABAKARAN SAHANA</TD>
-        </TR>
-        <TR>
-            <TD>19</TD>
-            <TD>RYAN SUWANDI</TD>
-        </TR>
-        <TR>
-            <TD>20</TD>
-            <TD>SHUSMOY ROY CHOWDHURY</TD>
-        </TR>
-        <TR>
-            <TD>21</TD>
-            <TD>TAN JUN YONG</TD>
-        </TR>
-        <TR>
-            <TD>22</TD>
-            <TD>TAY YIWEI DAVID</TD>
-        </TR>
-        <TR>
-            <TD>23</TD>
-            <TD>THAYALLAN KALIANNAN</TD>
-        </TR>
-        <TR>
-            <TD>24</TD>
-            <TD>TYLER NG PEK HAN (HUANG BOHAN)</TD>
-        </TR>
-        <TR>
-            <TD>25</TD>
-            <TD>YUE ZONG JUN</TD>
-        </TR>
-        <TR>
-    </TABLE>
-    <button onclick="time()">SEE THe TIME</button>
-    <h2 id='og'>NoRmAl TiMe</h2>
-    <h2 id='ogg'>NoRmAl TiMe</h2>
-    <h4>The NUSH orientation song backwards</h4>
-    <audio controls loop>
-        <source src="media/2020r.mp3" type="audio/mpeg"></audio>
-    <h2><a href="https://github.com/hnngggrrrr/okboomer">Fork me on Github</a></h2>
-    <h3>Not enough NUSH memes here? <a href="https://reddit.com/r/nush">try the subreddit</a></h3>
-    <h4>Da sch song <br> <b><strong>song starts at 0:05</strong></b></h4>
-
-    <audio controls loop>
-        <source src="media/nush.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    <h4>NUSH 2020 orientation mass dance song <br> <b><strong>song starts at 0:01</strong></b></h4>
-    <audio controls loop>
-        <source src="media/mass.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    <h4>NUSH orientation mass dance song earrape credits andrew jonathan lee <br>WARNING: audio is muted for you. DO NOT
-        UNMUTE AT ALL COSTS. it may be louder than you think.</h4>
-    <audio controls muted>
-        <source src="media/ear.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    <h4>NUSH 2019 orientation mass dance song</h4>
-    <audio controls loop>
-        <source src='media/2019.mp3' type='audio/mpeg'>
-    </audio>
-    <h4>type something here it doesnt do anything:</h4>
-    <div id='tinput'>
-        <input type="text" id='item1'>
-        <button id='item2' onclick="al()">doesnt submit lol</button></div>
-
-    <h4 id='chn'>press 'doesnt submit lol' button to change me</h4>
-    <h4>the submit button changes the text above^</h4>
-    <h4>read caps</h4>
-    <img src="media/rickroll.jpg" alt="READ THE CAPS" id='long'>
-    <h4 id='raid'>Hi! Yes I rickolled you. might do something to this Website to help people of
+    <span class="square individual">
+        <a class="ninth before after" href="">Original Site</a>
+    </span>
+    <br />
+    <br />
+    <h4 class="raid">
+        This site was made possible by you, and
+        I've never been much of a mobile gamer, but, forget everything you think
+        you know about mobile games because Raid Shadow Legends is one of the most
+        ambitious RPG projects of 2019 has just been released and will change
+        everything. Just look at the level of detail of these characters! If you
+        use the code in the description you can start with 50,000 silver and join
+        the Special Launch Tournament, and you better hurry because it's getting
+        big fast! You can play for totally free with the link below on your
+        smartphone. <br />brought to you by our sponsor, Nord VPN! Protect your
+        privacy from prying eyes with military-grade encryption. Buy Nord VPN
+        today using the promo code in the description down below for 55% off one
+        year subscription! <br />[WESBITE NOT MADE BY WIX]You need a website. Why
+        not do it yourself? With Wix, you can create your own professional
+        website. Choose from hundreds of templates. Whether you're a small
+        business owner or an artist, we've got something for you. Just drag and
+        drop to create your site exactly the way you want it. It's easy! Change
+        your text. Choose one of our backgrounds or upload your own, and easily
+        add one of our beautiful galleries. You can even set up an online store in
+        seconds. With just a few clicks, you can connect your site to your
+        favorite social media channels, and add popular Web apps and services,
+        like Google Maps, Contact Forms, and so much more. Just like that, you've
+        got your own stunning website, that is fully optimized for every device.
+        Create your stunning website today. It's easy & free!
+    </h4>
+    <section data-index="0" id="time">
+        <br />
+        <br />
+        <br />
+        <img class="time" src="https://raw.githubusercontent.com/hnngggrrrr/okboomer/master/media/time.png" alt="" />
+    </section>
+    <section data-index="1" id="list">
+        <br />
+        <br />
+        <br />
+        <table>
+            <tr>
+                <td>Index No.</td>
+                <td>Name</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>ADITI ATHREYA</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>ANANDAN NITHILAM</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>BRANDON NATHANIEL YAURY</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>CHUA WEE CHONG</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>CLEMENT LOW HONG YI</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>FU QIANPENG</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>GUO CHENG GUANG</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>HUGO MAXIMUS LIM</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>JAEDEN SOON CHUANKAI</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>KHOO KAI WEN</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>KIRTHIVARDHAN RAJASEKAR</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>LENG KANE KIAT</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>LIM CHENG IAN</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>LIM JAR RUI</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>LIM YU HAO</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>LIM YU TONG</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>MATTHEW LING YONG EN</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>PRABAKARAN SAHANA</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>RYAN SUWANDI</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>SHUSMOY ROY CHOWDHURY</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>TAN JUN YONG</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>TAY YIWEI DAVID</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>THAYALLAN KALIANNAN</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>TYLER NG PEK HAN (HUANG BOHAN)</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>YUE ZONG JUN</td>
+            </tr>
+            <tr></tr>
+        </table>
+    </section>
+    <section id="audio" data-index="2">
+        <br />
+        <br />
+        <br />
+        <h1>Audio Time!</h1>
+        <br />
+        <h3>1. Take Me Somewhere (bAcKwArDs)</h3>
+        <br />
+        <audio controls loop>
+            <source src="https://hnngggrrrr.github.io/okboomer/media/2020r.mp3" type="audio/ogg" />
+        </audio>
+        <br />
+        <br />
+        <br />
+        <br />
+        <h3>2. Da School Song <br> <b><strong>Song starts at 0:05</strong></h3>
+        <br />
+        <audio controls loop>
+            <source src="https://hnngggrrrr.github.io/okboomer/media/nush.mp3" type="audio/ogg" />
+        </audio>
+        <br />
+        <br />
+        <br />
+        <br />
+        <h3>3. Take Me Somewhere <br> <b><strong>Song starts at 0:01</strong></b></h3>
+        <br />
+        <audio controls loop>
+            <source src="https://hnngggrrrr.github.io/okboomer/media/mass.mp3" type="audio/ogg" />
+        </audio>
+        <br />
+        <br />
+        <br />
+        <br />
+        <h3>4. Take Me Somewhere earrape credits Andrew <br>WARNING: Audio is muted for you. DO NOT
+            UNMUTE AT ALL COSTS UNLESS YOU WANT TO. It may be louder than you think.</h3>
+        <br />
+        <audio controls muted>
+            <source src="https://hnngggrrrr.github.io/okboomer/media/ear.mp3" type="audio/ogg" />
+        </audio>
+        <br />
+        <br />
+        <br />
+        <br />
+        <h3>5. Sweet Escape</h3>
+        <br />
+        <audio controls loop>
+            <source src="https://hnngggrrrr.github.io/okboomer/media/2019.mp3" type="audio/ogg" />
+        </audio>
+    </section>
+    <section id="message" data-index="3">
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2>OGLs Message to M20202</h2>
+        <br>
+        <img src="https://hnngggrrrr.github.io/okboomer/media/rickroll.jpg" alt="">
+    </section>
+    <br>
+    <br>
+    <br>
+    <h4 class='raid'>Hi! Yes I rickolled you. might do something to this Website to help people of
         M202020202020202020202020202020202
     </h4>
+    <br>
+    <br>
     <h4>The OGLS rickrolled with that. Remember: everything that was once here stays here</h4>
     <h4>PS: tuned off autoplay</h4>
-    <video width="1000" height="600" controls>
-        <source src="media/rickroll.mp4" type="video/mp4">
-    </video>
-    <video width="1000" height="600" controls>
-        <source src="media/yakko.ogv" type="video/ogg">
-    </video>
+    <section id="video" data-index="4">
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>1. Never gonna... you know the lyrics...</h2>
+        <video width="1000" height="600" controls>
+            <source src="https://hnngggrrrr.github.io/okboomer/media/rickroll.mp4" type="video/mp4">
+        </video>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>2. Yakko's World</h2>
+        <video width="1000" height="600" controls>
+            <source src="https://hnngggrrrr.github.io/okboomer/media/yakko.ogv" type="video/mp4">
+        </video>
+        <br>
+        <br>
+        <br>
+    </section>
+    <br>
+    <h1>Made by, yours not so sincerely:</h1>
+    <br>
+    <h1>Kane, Kirthi, Andrew</h1>
+    <audio controls>
+        <source src="media/madebyreverse.mp3" type="audio/ogg" />
+    </audio>
 </body>
+<script src="./app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-</HTML>
+</html>
