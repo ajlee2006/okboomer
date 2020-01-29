@@ -6,7 +6,11 @@ function time() {
     let da = d8.split(/ +/)
     d8 = document.getElementById('ogg').innerHTML = `${da[1]} ${da[2]} ${da[3]}`
 
-} const hamburger = document.querySelector(".hamburger");
+}
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+}
+const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links li");
 
