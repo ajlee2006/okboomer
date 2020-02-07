@@ -1,12 +1,4 @@
-function time() {
-    let now = Date.now()
-    document.getElementById('og').innerHTML = 'unix time:' + now
-    dateObj = new Date(now);
-    d8 = dateObj.toUTCString();
-    let da = d8.split(/ +/)
-    d8 = document.getElementById('ogg').innerHTML = `${da[1]} ${da[2]} ${da[3]}`
 
-}
 function googleTranslateElementInit() {
     new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
 }
@@ -24,19 +16,16 @@ hamburger.addEventListener("click", () => {
 function myFunction(x) {
     x.classList.toggle("change");
 }
-
-$("a").on("click", function (event) {
-    if (this.hash !== "") {
-        event.preventDefault();
-        var hash = this.hash;
-        $("html, body").animate(
-            {
-                scrollTop: $(hash).offset().top
-            },
-            800,
-            function () {
-                window.location.hash = hash;
-            }
-        );
+function reveal() {
+    let x = document.getElementById("actually");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
     }
-});
+}
+function hidereal() {
+    let x = document.getElementById("actually");
+    x.style.display = 'none'
+}
+window.onload = hidereal
