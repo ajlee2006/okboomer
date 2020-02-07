@@ -13,6 +13,10 @@ hamburger.addEventListener("click", () => {
     });
 });
 
+$("#yates").click(function () {
+    $("#list").slideToggle();
+});
+
 function myFunction(x) {
     x.classList.toggle("change");
 }
@@ -20,7 +24,8 @@ function reveal() {
     let x = document.getElementById("actually");
     if (x.style.display === "none") {
         x.style.display = "block";
-    } else {
+    }
+    else {
         x.style.display = "none";
     }
 }

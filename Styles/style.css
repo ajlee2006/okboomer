@@ -7,6 +7,15 @@
     text-align: center;
 }
 
+iframe {
+    width: 100vw;
+    height: 100vh;
+}
+
+#list {
+    display: none;
+}
+
 body {
     background-color: #010008;
     color: #e2f3f5;
