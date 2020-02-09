@@ -24,6 +24,7 @@ ul {
     padding: 0px;
     list-style: none;
     font-family: arial;
+    opacity: 1
 }
 
 ul li {
@@ -34,18 +35,24 @@ ul li {
     line-height: 40px;
     text-align: center;
     font-size: 20px;
+    opacity: 1
+}
 
+iframe {
+    height: 75vh;
+    width: 100vw;
 }
 
 ul li a {
     text-decoration: none;
     color: white;
     display: block;
-
+    opacity: 1
 }
 
 ul li a:hover {
     background-color: #00be00;
+    opacity: 1
 }
 
 ul li ul li {
