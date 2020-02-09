@@ -11,26 +11,40 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="hamburger" onclick="myFunction(this)">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-            <ul class="nav-links">
-                <li><a class="third after" data-page="time" href="#time">Timetable</a></li>
-                <li><a class="third after" data-page="list" href="#list">Class List</a></li>
-                <li><a class="third after" data-page="audio" href="#audio">Audio</a></li>
-                <li><a class="third after" data-page="message" href="#message">Message</a></li>
-                <li><a class="third after" data-page="videos" href="#video">Videos</a></li>
+    <ul id='nav'>
+        <li>
+            <p>M20202</p>
+            <ul>
+                <li><a href="#time" class='no' id='timelink'>Timetable</a></li>
+                <li><a href="#list" class='no' id='nee'>Class List</a></li>
+                <li><a href="#message" class='no' id='neee'>OGL Message</a></li>
             </ul>
-        </nav>
-    </header>
+        </li>
+        <li>
+            <p>News</p>
+            <ul>
+                <li>
+                    <a href="#wuhan" class='no'>
+
+                        <p>(Wuhan) 2019-nCoV</p>
+                    </a>
+                </li>
+
+            </ul>
+        </li>
+        <li>
+            <p>Others</p>
+            <ul>
+                <li><a href="#audio" class='no'>Audio</a></li>
+                <li><a href="#video" class='no'>Videos</a></li>
+
+            </ul>
+        </li>
+    </ul>
     <h1>M20202 Website</h1>
-    <span class="square individual">
-        <a class="ninth before after" href="">Original Site</a>
-    </span>
+
+    <a class="ninth before after" href="" id='fanC'>Original Site</a>
+
     <br />
     <br />
     <h4 class="raid">
@@ -62,15 +76,16 @@
         <br />
         <br />
         <br />
-        <img class="time" src="https://raw.githubusercontent.com/hnngggrrrr/okboomer/master/media/time.png" alt="" />
+        <img class="time" src="./media/time.png" alt="" />
     </section>
     <section data-index="01" id="wuhan">
+        <h1>
+            <p class='crossed'>Wuhan</p>2019 Novel Coronavirus
+        </h1>
         <iframe src="https://thewuhanvirus.com"></iframe>
     </section>
     <section data-index="1" id="list">
-        <br />
-        <br />
-        <br />
+        <h1>Class List</h1>
         <table>
             <tr>
                 <td>Index No.</td>
@@ -179,13 +194,10 @@
             <tr></tr>
         </table>
     </section>
-
     <section id="audio" data-index="2">
-        <br />
-        <br />
-        <br />
+
         <h1>Audio Time!</h1>
-        <br />
+
         <h3>1. Take Me Somewhere (bAcKwArDs)</h3>
         <br />
         <audio controls loop>

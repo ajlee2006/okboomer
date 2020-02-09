@@ -19,12 +19,21 @@ h1 {
 
 }
 
+.bold,
+h1 {
+    color: #f8f8f8;
+}
+
 ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
     font-family: arial;
-    opacity: 1
+    opacity: 1;
+}
+
+#nav {
+    position: fixed;
 }
 
 #nee,
@@ -44,9 +53,13 @@ ul li {
 
 }
 
+.crossed {
+    text-decoration: line-through;
+}
+
 iframe {
     height: 75vh;
-    width: 100vw;
+    width: 80vw;
 }
 
 ul li a {
@@ -98,12 +111,12 @@ td {
 
 tbody tr {
     cursor: pointer;
-    -webkit-transition: 1s background cubic-bezier(0.86, 0, 0.07, 1);
-    transition: 1s background cubic-bezier(0.86, 0, 0.07, 1);
+    -webkit-transition: 0.5s background cubic-bezier(0.86, 0, 0.07, 1);
+    transition: 0.5s background cubic-bezier(0.86, 0, 0.07, 1);
 }
 
 tbody tr:hover {
-    background: grey;
+    background: rgb(96, 96, 96);
 }
 
 tbody tr:hover .options {
