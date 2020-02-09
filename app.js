@@ -17,9 +17,7 @@ $("#yates").click(function () {
     $("#list").slideToggle();
 });
 
-function myFunction(x) {
-    x.classList.toggle("change");
-}
+
 function reveal() {
     let x = document.getElementById("actually");
     if (x.style.display === "none") {
@@ -29,8 +27,4 @@ function reveal() {
         x.style.display = "none";
     }
 }
-function hidereal() {
-    let x = document.getElementById("actually");
-    x.style.display = 'none'
-}
-window.onload = hidereal
+
