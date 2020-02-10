@@ -16,20 +16,11 @@ h1 {
     padding-top: 5vw;
     padding-bottom: 5vw;
     position: fied;
-
 }
 
 .bold,
 h1 {
     color: #f8f8f8;
-}
-
-ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    font-family: arial;
-    opacity: 1;
 }
 
 #nav {
@@ -41,18 +32,6 @@ ul {
     border-left: 3px solid #6c7983;
 }
 
-ul li {
-    float: left;
-    width: 33vw;
-    height: 40px;
-    background-color: #2a2e35;
-    line-height: 40px;
-    text-align: center;
-    font-size: 20px;
-    opacity: 1;
-
-}
-
 .crossed {
     text-decoration: line-through;
 }
@@ -60,27 +39,6 @@ ul li {
 iframe {
     height: 75vh;
     width: 80vw;
-}
-
-ul li a {
-    text-decoration: none;
-    color: white;
-    display: block;
-    opacity: 1;
-    background-color: #454e56
-}
-
-ul li a:hover {
-    background-color: #6c7983;
-    opacity: 1;
-    color: #dbe1e8;
-}
-
-ul li ul li {
-    display: none;
-    background-color: rgb(0, 37, 0);
-    opacity: 1;
-    border: none;
 }
 
 ul li:hover ul li {
@@ -116,7 +74,7 @@ tbody tr {
 }
 
 tbody tr:hover {
-    background: rgb(96, 96, 96);
+    background: #606060;
 }
 
 tbody tr:hover .options {
@@ -186,3 +144,143 @@ video {
 html {
     scroll-behavior: smooth;
 }
+
+.thaya {
+    font-size: 40px;
+}
+
+.dropdown {
+    height: 10vh;
+    width: 60%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.m20202,
+.news,
+.others {
+    position: relative;
+}
+
+.m20202 ul,
+.news ul,
+.others ul {
+    margin-top: 10px;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background: white;
+    left: -60px;
+    list-style: none;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.m20202 a,
+.news a,
+.others a,
+.m20202 li,
+.news li,
+.others li {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #454e56;
+}
+
+.m20202 a:hover,
+.news a:hover,
+.others a:hover {
+    background-color: #6c7983;
+    color: #dbe1e8;
+}
+
+.m20202 a,
+.news a,
+.others a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.dropdown button {
+    outline: none;
+    background: none;
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.m20202 button:focus+ul,
+.news button:focus+ul,
+.others button:focus+ul {
+    opacity: 1;
+    cursor: pointer;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+li a {
+    pointer-events: all;
+    cursor: pointer;
+}
+
+a {
+    color: #6ca0fc;
+    font-size: larger;
+    text-decoration: none;
+}
+
+header {
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #2a2e35;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
