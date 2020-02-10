@@ -186,13 +186,3 @@ video {
 html {
     scroll-behavior: smooth;
 }
-
-::selection {
-    background: #09c372;
-    /* WebKit/Blink Browsers */
-}
-
-::-moz-selection {
-    background: #09c372;
-    /* WebKit/Blink Browsers */
-}
